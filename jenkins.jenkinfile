@@ -21,17 +21,6 @@ pipeline
                         echo 'Running UT'
                     }
                 }
-                stage('Integration Test'){
-                  agent{
-                    docker{
-                        reuseNode false
-                        image ubantu
-                    }
-                  }
-                  steps{
-                      echo 'Running IT'
-                  }
-                }
               }
           }
           
