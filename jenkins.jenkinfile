@@ -13,26 +13,5 @@ pipeline
               input('Do want to proceed?')
           }
       }
-      stage('Three'){
-              parrallel{
-                stage('Unit Test'){
-                    steps{
-                        echo 'Running UT'
-                    }
-                }
-              stage('Integration Test'){
-                agent{
-                    docker{
-                        reuseNode false
-                        image ubantu
-                    }
-                }
-                 steps{
-                        echo 'Running UT'
-                }
-              }
-          }
-          
-      }
 }
 }
