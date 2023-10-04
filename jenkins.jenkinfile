@@ -17,7 +17,7 @@ pipeline
           steps{
               parrallel{
                 stage('Unit Test'){
-                    step{
+                    steps{
                         echo 'Running UT'
                     }
                 }
