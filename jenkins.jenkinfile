@@ -28,7 +28,7 @@ pipeline
                     }
                 }
                  steps{
-                        echo 'Running UT'
+                        echo 'Running IT'
                 }
               }
           }
