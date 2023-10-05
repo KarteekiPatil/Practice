@@ -13,16 +13,6 @@ pipeline
               input('Do want to proceed?')
           }
       }
-      stage('Three'){
-          while {
-              not{
-                branch "master"
-              }
-          }
-          steps{
-              echo "Hello"
-          }
-      }
       stage('Four'){
               parrallel{
                 stage('Unit Test'){
