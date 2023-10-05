@@ -13,7 +13,7 @@ pipeline
               input('Do want to proceed?')
           }
       }
-      stage('Three){
+      stage('Three'){
           while{
               not{
                 branch "master"
