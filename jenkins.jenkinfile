@@ -24,7 +24,7 @@ pipeline
                 agent{
                     docker{
                         reuseNode false
-                        image ubantu
+                        image 'ubantu'
                     }
                 }
                  steps{
