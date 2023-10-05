@@ -14,7 +14,7 @@ pipeline
           }
       }
       stage('Three'){
-          while{
+          while {
               not{
                 branch "master"
               }
