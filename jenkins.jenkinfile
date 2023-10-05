@@ -13,8 +13,8 @@ pipeline
               input('Do want to proceed?')
           }
       }
-      stage('Four'){
-              parrallel{
+      stage('Three'){
+             parallel {
                 stage('Unit Test'){
                     steps{
                         echo 'Running UT'
