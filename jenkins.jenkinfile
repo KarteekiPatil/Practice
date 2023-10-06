@@ -22,7 +22,7 @@ pipeline
                 }
               stage('Integration Test'){
                 steps{
-                        echo 'Running IT'
+                        echo 'Running IT....'
                 }
               }
           }
