@@ -5,7 +5,7 @@ pipeline
     {
       stage('One'){
           steps{
-              echo 'Hello, Welcome to jenkins'
+              echo 'Hello, Welcome to jenkins.....'
           }
       }
       stage('Two'){
