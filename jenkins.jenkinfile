@@ -20,7 +20,7 @@ pipeline
              parallel {
                 stage('Unit Test'){
                     steps{
-                        echo 'Running UT..'
+                        echo 'Running Unit Test..'
                     }
                 }
               stage('Integration Test'){
